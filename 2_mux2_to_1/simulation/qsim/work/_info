@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aaron\Desktop\git_verilogProjects\2_mux2_to_1\simulation\qsim
+vmux2_to_1
+Z1 I2BE3V4mnjhmkj:Z4bM[2M1
+Z2 VQIe_?ATBAAcI7A76lDRLi0
+Z3 dC:\Users\aaron\Desktop\git_verilogProjects\2_mux2_to_1\simulation\qsim
+Z4 w1622412547
+Z5 8mux2_to_1.vo
+Z6 Fmux2_to_1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 :NNOP2YjRg:SOfobe26292
+!s85 0
+Z10 !s108 1622412549.834000
+Z11 !s107 mux2_to_1.vo|
+Z12 !s90 -work|work|mux2_to_1.vo|
+!s101 -O0
+vmux2_to_1_vlg_check_tst
+!i10b 1
+!s100 `oggUR^AfJL?KzTFT9E?F2
+I2Q[i9<6UCSPjW1`S_R0oh1
+VUOF:bZOQQY4VSbUVNzTbb1
+R3
+Z13 w1622412544
+Z14 8mux2_to_1.vt
+Z15 Fmux2_to_1.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1622412549.961000
+Z17 !s107 mux2_to_1.vt|
+Z18 !s90 -work|work|mux2_to_1.vt|
+!s101 -O0
+R8
+vmux2_to_1_vlg_sample_tst
+!i10b 1
+!s100 ]iG[fBOId9mZILb1U7VCB0
+Ih?9:4dF`^o=Jj;zKSKXnJ0
+V5GSZNJ`Q:CT7gQanG><8B2
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vmux2_to_1_vlg_vec_tst
+!i10b 1
+!s100 E;CLKLXd[]R@BSP?9jMnT2
+I3e8Tz;mO?_z_b:lJQi8JD1
+VzdQG>9BYA<0o?<Q^f_Vo23
+R3
+R13
+R14
+R15
+L0 154
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

@@ -1,0 +1,13 @@
+/*
+*	Description: 2 to 1 multiplexer  
+*	Author: Aarón Escoboza Villegas
+*/
+
+module mux2_to_1
+(
+	input [1:0] in,
+	input			selector,
+	output  [1:0] out
+);
+assign out = selector ? in[1]:in[0]; 
+endmodule
