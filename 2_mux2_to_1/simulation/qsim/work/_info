@@ -4,78 +4,78 @@ K3
 cModel Technology
 Z0 dC:\Users\aaron\Desktop\git_verilogProjects\2_mux2_to_1\simulation\qsim
 vmux2_to_1
-Z1 I2BE3V4mnjhmkj:Z4bM[2M1
-Z2 VQIe_?ATBAAcI7A76lDRLi0
-Z3 dC:\Users\aaron\Desktop\git_verilogProjects\2_mux2_to_1\simulation\qsim
-Z4 w1622412547
-Z5 8mux2_to_1.vo
-Z6 Fmux2_to_1.vo
+Z1 !s100 Bebn>:DIAg]9Rm[[_4TDM3
+Z2 Ia1=JSmoTn^:bY__>nIj7i2
+Z3 V>ngN?l`2SNhlX1<`XJRYW0
+Z4 dC:\Users\aaron\Desktop\git_verilogProjects\2_mux2_to_1\simulation\qsim
+Z5 w1622420037
+Z6 8mux2_to_1.vo
+Z7 Fmux2_to_1.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
+Z9 !s90 -work|work|mux2_to_1.vo|
+Z10 o-work work -O0
 !i10b 1
-Z9 !s100 :NNOP2YjRg:SOfobe26292
 !s85 0
-Z10 !s108 1622412549.834000
-Z11 !s107 mux2_to_1.vo|
-Z12 !s90 -work|work|mux2_to_1.vo|
+Z11 !s108 1622420038.563000
+Z12 !s107 mux2_to_1.vo|
 !s101 -O0
 vmux2_to_1_vlg_check_tst
 !i10b 1
-!s100 `oggUR^AfJL?KzTFT9E?F2
-I2Q[i9<6UCSPjW1`S_R0oh1
-VUOF:bZOQQY4VSbUVNzTbb1
-R3
-Z13 w1622412544
-Z14 8mux2_to_1.vt
-Z15 Fmux2_to_1.vt
-L0 59
-R7
+Z13 !s100 c`AjM2>PXYi<^CL6@5=S33
+Z14 I[gjT;h9QTc;DdOhddBaM93
+Z15 VUOF:bZOQQY4VSbUVNzTbb1
+R4
+Z16 w1622420034
+Z17 8mux2_to_1.vt
+Z18 Fmux2_to_1.vt
+L0 61
+R8
 r1
 !s85 0
 31
-Z16 !s108 1622412549.961000
-Z17 !s107 mux2_to_1.vt|
-Z18 !s90 -work|work|mux2_to_1.vt|
+Z19 !s108 1622420038.664000
+Z20 !s107 mux2_to_1.vt|
+Z21 !s90 -work|work|mux2_to_1.vt|
 !s101 -O0
-R8
+R10
 vmux2_to_1_vlg_sample_tst
 !i10b 1
-!s100 ]iG[fBOId9mZILb1U7VCB0
-Ih?9:4dF`^o=Jj;zKSKXnJ0
-V5GSZNJ`Q:CT7gQanG><8B2
-R3
-R13
-R14
-R15
-L0 29
-R7
-r1
-!s85 0
-31
+Z22 !s100 mF=<[I24?1ild_1?cSckQ1
+Z23 I8Yggg5DeTP7QTQTmAVedU1
+Z24 V29C?eYYn?Mae>_e12lCD:2
+R4
 R16
 R17
 R18
-!s101 -O0
+L0 29
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
 vmux2_to_1_vlg_vec_tst
 !i10b 1
-!s100 E;CLKLXd[]R@BSP?9jMnT2
-I3e8Tz;mO?_z_b:lJQi8JD1
-VzdQG>9BYA<0o?<Q^f_Vo23
-R3
-R13
-R14
-R15
-L0 154
-R7
-r1
-!s85 0
-31
+!s100 LYAg^11gdW:[W7FbbQ8J82
+I0Le88IaOk13`GPhafVM4e2
+Z25 VzdQG>9BYA<0o?<Q^f_Vo23
+R4
 R16
 R17
 R18
-!s101 -O0
+Z26 L0 156
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

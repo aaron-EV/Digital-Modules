@@ -1,0 +1,15 @@
+/*
+*	Description: 4 to 1 multiplexer using 2-to-1 multiplexers
+*	Author: Aarón Escoboza Villegas
+*/
+
+module mux4_to_1
+(
+	input		[3:0] in,
+	input		  [1:0]s,
+	output		  out
+);
+
+assign out = s ? in[1]:in[0]; 
+
+endmodule

@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for mux2_to_1
-Sun May 30 15:02:35 2021
+Sun May 30 17:10:23 2021
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -126,8 +126,8 @@ No paths to report.
 +------------+-------------+--------+--------+--------+--------+
 ; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
 +------------+-------------+--------+--------+--------+--------+
-; in[0]      ; out         ; 10.879 ;        ;        ; 10.879 ;
-; in[1]      ; out         ; 11.187 ;        ;        ; 11.187 ;
+; in0        ; out         ; 10.879 ;        ;        ; 10.879 ;
+; in1        ; out         ; 11.187 ;        ;        ; 11.187 ;
 ; s          ; out         ; 10.711 ; 10.711 ; 10.711 ; 10.711 ;
 +------------+-------------+--------+--------+--------+--------+
 
@@ -137,8 +137,8 @@ No paths to report.
 +------------+-------------+--------+--------+--------+--------+
 ; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
 +------------+-------------+--------+--------+--------+--------+
-; in[0]      ; out         ; 10.879 ;        ;        ; 10.879 ;
-; in[1]      ; out         ; 11.187 ;        ;        ; 11.187 ;
+; in0        ; out         ; 10.879 ;        ;        ; 10.879 ;
+; in1        ; out         ; 11.187 ;        ;        ; 11.187 ;
 ; s          ; out         ; 10.711 ; 10.711 ; 10.711 ; 10.711 ;
 +------------+-------------+--------+--------+--------+--------+
 
@@ -178,8 +178,8 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; in[0]      ; out         ; 5.192 ;       ;       ; 5.192 ;
-; in[1]      ; out         ; 5.287 ;       ;       ; 5.287 ;
+; in0        ; out         ; 5.192 ;       ;       ; 5.192 ;
+; in1        ; out         ; 5.287 ;       ;       ; 5.287 ;
 ; s          ; out         ; 5.150 ; 5.150 ; 5.150 ; 5.150 ;
 +------------+-------------+-------+-------+-------+-------+
 
@@ -189,8 +189,8 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; in[0]      ; out         ; 5.192 ;       ;       ; 5.192 ;
-; in[1]      ; out         ; 5.287 ;       ;       ; 5.287 ;
+; in0        ; out         ; 5.192 ;       ;       ; 5.192 ;
+; in1        ; out         ; 5.287 ;       ;       ; 5.287 ;
 ; s          ; out         ; 5.150 ; 5.150 ; 5.150 ; 5.150 ;
 +------------+-------------+-------+-------+-------+-------+
 
@@ -210,8 +210,8 @@ No paths to report.
 +------------+-------------+--------+--------+--------+--------+
 ; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
 +------------+-------------+--------+--------+--------+--------+
-; in[0]      ; out         ; 10.879 ;        ;        ; 10.879 ;
-; in[1]      ; out         ; 11.187 ;        ;        ; 11.187 ;
+; in0        ; out         ; 10.879 ;        ;        ; 10.879 ;
+; in1        ; out         ; 11.187 ;        ;        ; 11.187 ;
 ; s          ; out         ; 10.711 ; 10.711 ; 10.711 ; 10.711 ;
 +------------+-------------+--------+--------+--------+--------+
 
@@ -221,8 +221,8 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; in[0]      ; out         ; 5.192 ;       ;       ; 5.192 ;
-; in[1]      ; out         ; 5.287 ;       ;       ; 5.287 ;
+; in0        ; out         ; 5.192 ;       ;       ; 5.192 ;
+; in1        ; out         ; 5.287 ;       ;       ; 5.287 ;
 ; s          ; out         ; 5.150 ; 5.150 ; 5.150 ; 5.150 ;
 +------------+-------------+-------+-------+-------+-------+
 
@@ -265,7 +265,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Sun May 30 15:02:32 2021
+    Info: Processing started: Sun May 30 17:10:19 2021
 Info: Command: quartus_sta mux2_to_1 -c mux2_to_1
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -299,8 +299,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 4534 megabytes
-    Info: Processing ended: Sun May 30 15:02:35 2021
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Processing ended: Sun May 30 17:10:23 2021
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
 
 
