@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aaron\Desktop\git_verilogProjects\WorkSpace\modM_counter\simulation\qsim
+vmodM_counter
+Z1 IoNI^>Bm7j0TPMT4bJ[?_P2
+Z2 V>Lcb]o?GSO8_g>::zgBfF0
+Z3 dC:\Users\aaron\Desktop\git_verilogProjects\WorkSpace\modM_counter\simulation\qsim
+Z4 w1622429603
+Z5 8modM_counter.vo
+Z6 FmodM_counter.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|modM_counter.vo|
+Z9 o-work work -O0
+Z10 nmod@m_counter
+!i10b 1
+Z11 !s100 iJTEmE;AHGD@<IW=4KG7l0
+!s85 0
+Z12 !s108 1622429604.125000
+Z13 !s107 modM_counter.vo|
+!s101 -O0
+vmodM_counter_vlg_check_tst
+!i10b 1
+!s100 21;jH2MCTdQH49^<M@Aa^3
+IoiRz6n<mj?=Af:7fh>U;j3
+VJTCPd8MKmmQlQ;@a:^P2m1
+R3
+Z14 w1622429600
+Z15 8modM_counter.vt
+Z16 FmodM_counter.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1622429604.194000
+Z18 !s107 modM_counter.vt|
+Z19 !s90 -work|work|modM_counter.vt|
+!s101 -O0
+R9
+Z20 nmod@m_counter_vlg_check_tst
+vmodM_counter_vlg_sample_tst
+!i10b 1
+Z21 !s100 bE0[IMO8:Cg]87o:58j@e1
+Z22 I1nO7IA>OW0`>anf3=K5f91
+Z23 VlLOW2Om@=a>5acOikZ;]E3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z24 nmod@m_counter_vlg_sample_tst
+vmodM_counter_vlg_vec_tst
+!i10b 1
+!s100 T2d<:Qe1B=9SiCOLY]mE51
+I2YWg3UMnZ@C0z9l0<B0;J2
+Z25 VjnhcGZmoKHaICRm=VGk[D1
+R3
+R14
+R15
+R16
+L0 209
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z26 nmod@m_counter_vlg_vec_tst
