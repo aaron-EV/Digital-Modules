@@ -62,7 +62,7 @@ SIGNAL("modM_counter_vlg_vec_tst|reset")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|outReg[3]")
+SIGNAL("modM_counter_vlg_vec_tst|out[3]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -72,7 +72,7 @@ SIGNAL("modM_counter_vlg_vec_tst|outReg[3]")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|outReg[2]")
+SIGNAL("modM_counter_vlg_vec_tst|out[2]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -82,7 +82,7 @@ SIGNAL("modM_counter_vlg_vec_tst|outReg[2]")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|outReg[1]")
+SIGNAL("modM_counter_vlg_vec_tst|out[1]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -92,7 +92,7 @@ SIGNAL("modM_counter_vlg_vec_tst|outReg[1]")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|outReg[0]")
+SIGNAL("modM_counter_vlg_vec_tst|out[0]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -202,7 +202,7 @@ SIGNAL("modM_counter_vlg_vec_tst|i1|en~combout")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[0]~0_combout")
+SIGNAL("modM_counter_vlg_vec_tst|i1|out[0]~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -232,7 +232,7 @@ SIGNAL("modM_counter_vlg_vec_tst|i1|reset~clkctrl_outclk")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[0]~reg0_regout")
+SIGNAL("modM_counter_vlg_vec_tst|i1|out[0]~reg0_regout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -242,7 +242,7 @@ SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[0]~reg0_regout")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[1]~1_combout")
+SIGNAL("modM_counter_vlg_vec_tst|i1|out[1]~1_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -252,7 +252,7 @@ SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[1]~1_combout")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[1]~reg0_regout")
+SIGNAL("modM_counter_vlg_vec_tst|i1|out[1]~reg0_regout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -262,7 +262,7 @@ SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[1]~reg0_regout")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[2]~2_combout")
+SIGNAL("modM_counter_vlg_vec_tst|i1|out[2]~2_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -272,7 +272,7 @@ SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[2]~2_combout")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[2]~reg0_regout")
+SIGNAL("modM_counter_vlg_vec_tst|i1|out[2]~reg0_regout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -282,7 +282,7 @@ SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[2]~reg0_regout")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[3]~3_combout")
+SIGNAL("modM_counter_vlg_vec_tst|i1|out[3]~3_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -292,7 +292,7 @@ SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[3]~3_combout")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[3]~4_combout")
+SIGNAL("modM_counter_vlg_vec_tst|i1|out[3]~4_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -302,7 +302,7 @@ SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[3]~4_combout")
 	PARENT = "";
 }
 
-SIGNAL("modM_counter_vlg_vec_tst|i1|outReg[3]~reg0_regout")
+SIGNAL("modM_counter_vlg_vec_tst|i1|out[3]~reg0_regout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -542,7 +542,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|reset")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|outReg[3]")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|out[3]")
 {
 	NODE
 	{
@@ -559,7 +559,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|outReg[3]")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|outReg[2]")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|out[2]")
 {
 	NODE
 	{
@@ -584,7 +584,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|outReg[2]")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|outReg[1]")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|out[1]")
 {
 	NODE
 	{
@@ -625,7 +625,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|outReg[1]")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|outReg[0]")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|out[0]")
 {
 	NODE
 	{
@@ -1387,7 +1387,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|en~combout")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[0]~0_combout")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|out[0]~0_combout")
 {
 	NODE
 	{
@@ -1484,7 +1484,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|reset~clkctrl_outclk")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[0]~reg0_regout")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|out[0]~reg0_regout")
 {
 	NODE
 	{
@@ -1557,7 +1557,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[0]~reg0_regout")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[1]~1_combout")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|out[1]~1_combout")
 {
 	NODE
 	{
@@ -1598,7 +1598,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[1]~1_combout")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[1]~reg0_regout")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|out[1]~reg0_regout")
 {
 	NODE
 	{
@@ -1639,7 +1639,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[1]~reg0_regout")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[2]~2_combout")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|out[2]~2_combout")
 {
 	NODE
 	{
@@ -1664,7 +1664,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[2]~2_combout")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[2]~reg0_regout")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|out[2]~reg0_regout")
 {
 	NODE
 	{
@@ -1689,7 +1689,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[2]~reg0_regout")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[3]~3_combout")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|out[3]~3_combout")
 {
 	NODE
 	{
@@ -1714,7 +1714,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[3]~3_combout")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[3]~4_combout")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|out[3]~4_combout")
 {
 	NODE
 	{
@@ -1731,7 +1731,7 @@ TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[3]~4_combout")
 	}
 }
 
-TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|outReg[3]~reg0_regout")
+TRANSITION_LIST("modM_counter_vlg_vec_tst|i1|out[3]~reg0_regout")
 {
 	NODE
 	{
@@ -1777,7 +1777,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|outReg[3]";
+	CHANNEL = "modM_counter_vlg_vec_tst|out[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 3;
@@ -1786,7 +1786,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|outReg[2]";
+	CHANNEL = "modM_counter_vlg_vec_tst|out[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 4;
@@ -1795,7 +1795,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|outReg[1]";
+	CHANNEL = "modM_counter_vlg_vec_tst|out[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 5;
@@ -1804,7 +1804,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|outReg[0]";
+	CHANNEL = "modM_counter_vlg_vec_tst|out[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 6;
@@ -1903,7 +1903,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|i1|outReg[0]~0_combout";
+	CHANNEL = "modM_counter_vlg_vec_tst|i1|out[0]~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 17;
@@ -1930,7 +1930,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|i1|outReg[0]~reg0_regout";
+	CHANNEL = "modM_counter_vlg_vec_tst|i1|out[0]~reg0_regout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 20;
@@ -1939,7 +1939,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|i1|outReg[1]~1_combout";
+	CHANNEL = "modM_counter_vlg_vec_tst|i1|out[1]~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 21;
@@ -1948,7 +1948,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|i1|outReg[1]~reg0_regout";
+	CHANNEL = "modM_counter_vlg_vec_tst|i1|out[1]~reg0_regout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 22;
@@ -1957,7 +1957,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|i1|outReg[2]~2_combout";
+	CHANNEL = "modM_counter_vlg_vec_tst|i1|out[2]~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 23;
@@ -1966,7 +1966,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|i1|outReg[2]~reg0_regout";
+	CHANNEL = "modM_counter_vlg_vec_tst|i1|out[2]~reg0_regout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 24;
@@ -1975,7 +1975,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|i1|outReg[3]~3_combout";
+	CHANNEL = "modM_counter_vlg_vec_tst|i1|out[3]~3_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 25;
@@ -1984,7 +1984,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|i1|outReg[3]~4_combout";
+	CHANNEL = "modM_counter_vlg_vec_tst|i1|out[3]~4_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 26;
@@ -1993,7 +1993,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modM_counter_vlg_vec_tst|i1|outReg[3]~reg0_regout";
+	CHANNEL = "modM_counter_vlg_vec_tst|i1|out[3]~reg0_regout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 27;

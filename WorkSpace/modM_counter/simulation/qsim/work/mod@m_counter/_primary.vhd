@@ -5,6 +5,6 @@ entity modM_counter is
         clk             : in     vl_logic;
         reset           : in     vl_logic;
         en              : in     vl_logic;
-        outReg          : out    vl_logic_vector(3 downto 0)
+        \out\           : out    vl_logic_vector(3 downto 0)
     );
 end modM_counter;
