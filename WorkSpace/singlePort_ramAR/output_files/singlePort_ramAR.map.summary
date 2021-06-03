@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Jun 03 15:47:37 2021
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Revision Name : singlePort_ramAR
+Top-level Entity Name : singlePort_ramAR
+Family : Cyclone II
+Total logic elements : 499
+    Total combinational functions : 499
+    Dedicated logic registers : 256
+Total registers : 256
+Total pins : 12
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

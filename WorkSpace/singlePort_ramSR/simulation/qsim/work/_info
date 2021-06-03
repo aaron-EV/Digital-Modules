@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aaron\Desktop\git_verilogProjects\WorkSpace\singlePort_ramSR\simulation\qsim
+vsinglePort_ramSR
+Z1 Ib9ZJNmC:H61`?T8T<8e5J1
+Z2 V^Q<IANa:X3]feaonlf>793
+Z3 dC:\Users\aaron\Desktop\git_verilogProjects\WorkSpace\singlePort_ramSR\simulation\qsim
+Z4 w1622762608
+Z5 8singlePort_ramSR.vo
+Z6 FsinglePort_ramSR.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 nsingle@port_ram@s@r
+!i10b 1
+Z10 !s100 c8IX2GYLjCg2l4jTBRG5P0
+!s85 0
+Z11 !s108 1622762609.865000
+Z12 !s107 singlePort_ramSR.vo|
+Z13 !s90 -work|work|singlePort_ramSR.vo|
+!s101 -O0
+vsinglePort_ramSR_vlg_check_tst
+!i10b 1
+!s100 JURBo`YFcdnBm^aHzX3NJ0
+Ic2P]_9eK@:h02K72z9@IN1
+VO:1Iikbc62FCEI6KhKc;D2
+R3
+Z14 w1622762605
+Z15 8singlePort_ramSR.vt
+Z16 FsinglePort_ramSR.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1622762609.937000
+Z18 !s107 singlePort_ramSR.vt|
+Z19 !s90 -work|work|singlePort_ramSR.vt|
+!s101 -O0
+R8
+nsingle@port_ram@s@r_vlg_check_tst
+vsinglePort_ramSR_vlg_sample_tst
+!i10b 1
+!s100 N8P2Goc[Z[8LDM_M<fZli1
+IRz_OkPBzOMm__78IkbDE80
+VUQ2PI6TR[<o[;N^Q5I@[a0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nsingle@port_ram@s@r_vlg_sample_tst
+vsinglePort_ramSR_vlg_vec_tst
+!i10b 1
+!s100 8V]dm:GYX7=R@9BbEAcJN1
+I53kd72j4A;z3@6=^Y<:8b1
+V3Vd[>D2Q1mEema:K:M97T0
+R3
+R14
+R15
+R16
+L0 164
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nsingle@port_ram@s@r_vlg_vec_tst

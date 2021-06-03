@@ -3,7 +3,7 @@ $comment
 		vcd file modM_counter.msim.vcd -direction
 $end
 $date
-	Sun May 30 23:04:48 2021
+	Thu Jun 03 11:35:02 2021
 $end
 $version
 	ModelSim Version 10.1d
