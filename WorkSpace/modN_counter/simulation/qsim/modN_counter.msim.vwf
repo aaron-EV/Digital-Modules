@@ -72,36 +72,6 @@ SIGNAL("modN_counter_vlg_vec_tst|done")
 	PARENT = "";
 }
 
-SIGNAL("modN_counter_vlg_vec_tst|out[5]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|out[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|out[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
 SIGNAL("modN_counter_vlg_vec_tst|out[2]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -202,26 +172,6 @@ SIGNAL("modN_counter_vlg_vec_tst|i1|devoe")
 	PARENT = "";
 }
 
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~5_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~9_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
 SIGNAL("modN_counter_vlg_vec_tst|i1|clk~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -252,47 +202,7 @@ SIGNAL("modN_counter_vlg_vec_tst|i1|en~combout")
 	PARENT = "";
 }
 
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[1]~2_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~1")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~2_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[1]~3_combout")
+SIGNAL("modN_counter_vlg_vec_tst|i1|out[0]~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -322,36 +232,6 @@ SIGNAL("modN_counter_vlg_vec_tst|i1|reset~clkctrl_outclk")
 	PARENT = "";
 }
 
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[1]~reg0_regout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[0]~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[0]~1_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
 SIGNAL("modN_counter_vlg_vec_tst|i1|out[0]~reg0_regout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -362,7 +242,7 @@ SIGNAL("modN_counter_vlg_vec_tst|i1|out[0]~reg0_regout")
 	PARENT = "";
 }
 
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[4]~6_combout")
+SIGNAL("modN_counter_vlg_vec_tst|i1|out[1]~1_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -372,7 +252,7 @@ SIGNAL("modN_counter_vlg_vec_tst|i1|out[4]~6_combout")
 	PARENT = "";
 }
 
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[4]~reg0_regout")
+SIGNAL("modN_counter_vlg_vec_tst|i1|out[1]~reg0_regout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -382,97 +262,7 @@ SIGNAL("modN_counter_vlg_vec_tst|i1|out[4]~reg0_regout")
 	PARENT = "";
 }
 
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~3")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~6")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~8")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~10")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~11_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[5]~7_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[5]~reg0_regout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|always0~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~4_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[2]~4_combout")
+SIGNAL("modN_counter_vlg_vec_tst|i1|out[2]~2_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -492,37 +282,7 @@ SIGNAL("modN_counter_vlg_vec_tst|i1|out[2]~reg0_regout")
 	PARENT = "";
 }
 
-SIGNAL("modN_counter_vlg_vec_tst|i1|Add0~7_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[3]~5_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|out[3]~reg0_regout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("modN_counter_vlg_vec_tst|i1|always0~1_combout")
+SIGNAL("modN_counter_vlg_vec_tst|i1|always0~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -765,9 +525,9 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|en")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 780.0;
-		LEVEL 0 FOR 60.0;
+		LEVEL 0 FOR 180.0;
+		LEVEL 1 FOR 410.0;
+		LEVEL 0 FOR 410.0;
 	}
 }
 
@@ -776,9 +536,9 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|reset")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 790.0;
-		LEVEL 0 FOR 50.0;
+		LEVEL 0 FOR 140.0;
+		LEVEL 1 FOR 520.0;
+		LEVEL 0 FOR 340.0;
 	}
 }
 
@@ -787,52 +547,19 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|done")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 635.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 355.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|out[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 475.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 365.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|out[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 315.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 320.0;
-		LEVEL 1 FOR 155.0;
-		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|out[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
 		LEVEL 0 FOR 235.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 75.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 455.0;
 	}
 }
 
@@ -841,27 +568,21 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|out[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 195.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 215.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 35.0;
-		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 85.0;
+		LEVEL 0 FOR 340.0;
 	}
 }
 
@@ -870,47 +591,21 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|out[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 175.0;
+		LEVEL 0 FOR 195.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
+		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
+		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
+		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
+		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
+		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
+		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 15.0;
-		LEVEL 0 FOR 50.0;
+		LEVEL 0 FOR 425.0;
 	}
 }
 
@@ -919,7 +614,7 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|out[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 165.0;
+		LEVEL 0 FOR 185.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
@@ -960,44 +655,8 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|out[0]")
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 65.0;
+		LEVEL 1 FOR 75.0;
+		LEVEL 0 FOR 340.0;
 	}
 }
 
@@ -1260,50 +919,6 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|devoe")
 	{
 		REPEAT = 1;
 		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~5_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 185.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 45.0;
-		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~9_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 305.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 165.0;
-		LEVEL 0 FOR 50.0;
 	}
 }
 
@@ -1728,401 +1343,9 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|en~combout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 780.0;
-		LEVEL 0 FOR 60.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 165.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 65.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[1]~2_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 25.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 35.0;
-		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~1")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 165.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 65.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~2_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 165.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 25.0;
-		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[1]~3_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 165.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 25.0;
-		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|reset~combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 790.0;
-		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|reset~clkctrl_outclk")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 790.0;
-		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[1]~reg0_regout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 175.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 15.0;
-		LEVEL 0 FOR 50.0;
+		LEVEL 0 FOR 180.0;
+		LEVEL 1 FOR 410.0;
+		LEVEL 0 FOR 410.0;
 	}
 }
 
@@ -2131,136 +1354,73 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[0]~0_combout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 180.0;
+		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 25.0;
-		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 70.0;
+		LEVEL 0 FOR 340.0;
 	}
 }
 
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[0]~1_combout")
+TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|reset~combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 60.0;
+		LEVEL 0 FOR 140.0;
+		LEVEL 1 FOR 520.0;
+		LEVEL 0 FOR 340.0;
+	}
+}
+
+TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|reset~clkctrl_outclk")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 140.0;
+		LEVEL 1 FOR 520.0;
+		LEVEL 0 FOR 340.0;
 	}
 }
 
@@ -2269,7 +1429,7 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[0]~reg0_regout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 165.0;
+		LEVEL 0 FOR 185.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
@@ -2310,258 +1470,79 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[0]~reg0_regout")
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 65.0;
+		LEVEL 1 FOR 75.0;
+		LEVEL 0 FOR 340.0;
 	}
 }
 
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[4]~6_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 305.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 320.0;
-		LEVEL 1 FOR 165.0;
-		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[4]~reg0_regout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 315.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 320.0;
-		LEVEL 1 FOR 155.0;
-		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~3")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 185.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 85.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~6")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 225.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 125.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~8")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 305.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 150.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 150.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 150.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 205.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~10")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 465.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 525.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~11_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 465.0;
-		LEVEL 1 FOR 170.0;
-		LEVEL 0 FOR 365.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[5]~7_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 465.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 375.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[5]~reg0_regout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 475.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 365.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|always0~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 595.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 365.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~4_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 465.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 305.0;
-		LEVEL 0 FOR 60.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[2]~4_combout")
+TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[1]~1_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 185.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 435.0;
+	}
+}
+
+TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[1]~reg0_regout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 195.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 45.0;
-		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 425.0;
+	}
+}
+
+TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[2]~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 205.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 70.0;
+		LEVEL 0 FOR 340.0;
 	}
 }
 
@@ -2570,131 +1551,44 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[2]~reg0_regout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 195.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 215.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 35.0;
-		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 85.0;
+		LEVEL 0 FOR 340.0;
 	}
 }
 
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|Add0~7_combout")
+TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|always0~0_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 225.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 85.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[3]~5_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 225.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 85.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|out[3]~reg0_regout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 235.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 75.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 50.0;
-	}
-}
-
-TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|always0~1_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 185.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
+		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
+		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 85.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 410.0;
 	}
 }
 
@@ -2703,9 +1597,21 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|done~0_combout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 625.0;
+		LEVEL 0 FOR 225.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 365.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 410.0;
 	}
 }
 
@@ -2714,9 +1620,19 @@ TRANSITION_LIST("modN_counter_vlg_vec_tst|i1|done~reg0_regout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 635.0;
+		LEVEL 0 FOR 235.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 355.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 455.0;
 	}
 }
 
@@ -2758,7 +1674,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|out[5]";
+	CHANNEL = "modN_counter_vlg_vec_tst|out[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 4;
@@ -2767,7 +1683,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|out[4]";
+	CHANNEL = "modN_counter_vlg_vec_tst|out[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 5;
@@ -2776,7 +1692,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|out[3]";
+	CHANNEL = "modN_counter_vlg_vec_tst|out[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 6;
@@ -2785,7 +1701,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|out[2]";
+	CHANNEL = "modN_counter_vlg_vec_tst|sampler";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 7;
@@ -2794,7 +1710,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|out[1]";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|gnd";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 8;
@@ -2803,7 +1719,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|out[0]";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|vcc";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 9;
@@ -2812,7 +1728,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|sampler";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|unknown";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 10;
@@ -2821,7 +1737,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|gnd";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|devclrn";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 11;
@@ -2830,7 +1746,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|vcc";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|devpor";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 12;
@@ -2839,7 +1755,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|unknown";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|devoe";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 13;
@@ -2848,7 +1764,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|devclrn";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|clk~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 14;
@@ -2857,7 +1773,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|devpor";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|clk~clkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 15;
@@ -2866,7 +1782,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|devoe";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|en~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 16;
@@ -2875,7 +1791,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~5_combout";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[0]~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 17;
@@ -2884,7 +1800,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~9_combout";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|reset~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 18;
@@ -2893,7 +1809,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|clk~combout";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|reset~clkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 19;
@@ -2902,7 +1818,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|clk~clkctrl_outclk";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[0]~reg0_regout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 20;
@@ -2911,7 +1827,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|en~combout";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[1]~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 21;
@@ -2920,7 +1836,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~0_combout";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[1]~reg0_regout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 22;
@@ -2929,7 +1845,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[1]~2_combout";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[2]~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 23;
@@ -2938,7 +1854,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~1";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[2]~reg0_regout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 24;
@@ -2947,7 +1863,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~2_combout";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|always0~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 25;
@@ -2956,7 +1872,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[1]~3_combout";
+	CHANNEL = "modN_counter_vlg_vec_tst|i1|done~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 26;
@@ -2965,226 +1881,10 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|reset~combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 27;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|reset~clkctrl_outclk";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 28;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[1]~reg0_regout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 29;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[0]~0_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 30;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[0]~1_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 31;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[0]~reg0_regout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 32;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[4]~6_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 33;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[4]~reg0_regout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 34;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~3";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 35;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~6";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 36;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~8";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 37;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~10";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 38;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~11_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 39;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[5]~7_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 40;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[5]~reg0_regout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 41;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|always0~0_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 42;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~4_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 43;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[2]~4_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 44;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[2]~reg0_regout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 45;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|Add0~7_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 46;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[3]~5_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 47;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|out[3]~reg0_regout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 48;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|always0~1_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 49;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "modN_counter_vlg_vec_tst|i1|done~0_combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 50;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
 	CHANNEL = "modN_counter_vlg_vec_tst|i1|done~reg0_regout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
-	TREE_INDEX = 51;
+	TREE_INDEX = 27;
 	TREE_LEVEL = 0;
 }
 ;

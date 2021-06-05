@@ -1,5 +1,5 @@
 Assembler report for modN_counter
-Sun May 30 22:46:34 2021
+Fri Jun 04 13:43:16 2021
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun May 30 22:46:34 2021 ;
+; Assembler Status      ; Successful - Fri Jun 04 13:43:16 2021 ;
 ; Revision Name         ; modN_counter                          ;
 ; Top-level Entity Name ; modN_counter                          ;
 ; Family                ; Cyclone II                            ;
@@ -94,8 +94,8 @@ applicable agreement for further details.
 ; Option         ; Setting                                                                                                  ;
 +----------------+----------------------------------------------------------------------------------------------------------+
 ; Device         ; EP2C5T144C8                                                                                              ;
-; JTAG usercode  ; 0x000757CD                                                                                               ;
-; Checksum       ; 0x000757CD                                                                                               ;
+; JTAG usercode  ; 0x00073A2A                                                                                               ;
+; Checksum       ; 0x00073A2A                                                                                               ;
 +----------------+----------------------------------------------------------------------------------------------------------+
 
 
@@ -106,7 +106,7 @@ applicable agreement for further details.
 +--------------------+------------------------------------------------------------------------------------------------------+
 ; Device             ; EPCS4                                                                                                ;
 ; JTAG usercode      ; 0x00000000                                                                                           ;
-; Checksum           ; 0x0752B8B0                                                                                           ;
+; Checksum           ; 0x07531CEE                                                                                           ;
 ; Compression Ratio  ; 3                                                                                                    ;
 +--------------------+------------------------------------------------------------------------------------------------------+
 
@@ -117,14 +117,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Sun May 30 22:46:29 2021
+    Info: Processing started: Fri Jun 04 13:43:12 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off modN_counter -c modN_counter
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4551 megabytes
-    Info: Processing ended: Sun May 30 22:46:34 2021
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Peak virtual memory: 4541 megabytes
+    Info: Processing ended: Fri Jun 04 13:43:16 2021
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 

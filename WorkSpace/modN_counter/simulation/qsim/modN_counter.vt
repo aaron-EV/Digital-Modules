@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "05/30/2021 22:52:26"
+// Generated on "06/04/2021 13:43:46"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    modN_counter
 // 
@@ -64,20 +64,20 @@ module modN_counter_vlg_check_tst (
 	sampler_rx
 );
 input  done;
-input [5:0] out;
+input [2:0] out;
 input sampler_rx;
 
 reg  done_expected;
-reg [5:0] out_expected;
+reg [2:0] out_expected;
 
 reg  done_prev;
-reg [5:0] out_prev;
+reg [2:0] out_prev;
 
 reg  done_expected_prev;
-reg [5:0] out_expected_prev;
+reg [2:0] out_expected_prev;
 
 reg  last_done_exp;
-reg [5:0] last_out_exp;
+reg [2:0] last_out_exp;
 
 reg trigger;
 
@@ -117,21 +117,6 @@ end
 initial
 begin
 	done_expected = 1'bX;
-end 
-// expected out[ 5 ]
-initial
-begin
-	out_expected[5] = 1'bX;
-end 
-// expected out[ 4 ]
-initial
-begin
-	out_expected[4] = 1'bX;
-end 
-// expected out[ 3 ]
-initial
-begin
-	out_expected[3] = 1'bX;
 end 
 // expected out[ 2 ]
 initial
@@ -214,45 +199,6 @@ begin
 		on_first_change[2] = 1'b0;
 		last_out_exp[2] = out_expected_prev[2];
 	end
-	if (
-		( out_expected_prev[3] !== 1'bx ) && ( out_prev[3] !== out_expected_prev[3] )
-		&& ((out_expected_prev[3] !== last_out_exp[3]) ||
-			on_first_change[2])
-	)
-	begin
-		$display ("ERROR! Vector Mismatch for output port out[3] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", out_expected_prev);
-		$display ("     Real value = %b", out_prev);
-		nummismatches = nummismatches + 1;
-		on_first_change[2] = 1'b0;
-		last_out_exp[3] = out_expected_prev[3];
-	end
-	if (
-		( out_expected_prev[4] !== 1'bx ) && ( out_prev[4] !== out_expected_prev[4] )
-		&& ((out_expected_prev[4] !== last_out_exp[4]) ||
-			on_first_change[2])
-	)
-	begin
-		$display ("ERROR! Vector Mismatch for output port out[4] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", out_expected_prev);
-		$display ("     Real value = %b", out_prev);
-		nummismatches = nummismatches + 1;
-		on_first_change[2] = 1'b0;
-		last_out_exp[4] = out_expected_prev[4];
-	end
-	if (
-		( out_expected_prev[5] !== 1'bx ) && ( out_prev[5] !== out_expected_prev[5] )
-		&& ((out_expected_prev[5] !== last_out_exp[5]) ||
-			on_first_change[2])
-	)
-	begin
-		$display ("ERROR! Vector Mismatch for output port out[5] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", out_expected_prev);
-		$display ("     Real value = %b", out_prev);
-		nummismatches = nummismatches + 1;
-		on_first_change[2] = 1'b0;
-		last_out_exp[5] = out_expected_prev[5];
-	end
 
 	trigger <= ~trigger;
 end
@@ -277,7 +223,7 @@ reg en;
 reg reset;
 // wires                                               
 wire done;
-wire [5:0] out;
+wire [2:0] out;
 
 wire sampler;                             
 
@@ -303,16 +249,16 @@ end
 initial
 begin
 	en = 1'b0;
-	en = #160000 1'b1;
-	en = #780000 1'b0;
+	en = #180000 1'b1;
+	en = #410000 1'b0;
 end 
 
 // reset
 initial
 begin
 	reset = 1'b0;
-	reset = #160000 1'b1;
-	reset = #790000 1'b0;
+	reset = #140000 1'b1;
+	reset = #520000 1'b0;
 end 
 
 modN_counter_vlg_sample_tst tb_sample (

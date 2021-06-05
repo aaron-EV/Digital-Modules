@@ -3,7 +3,7 @@
 *	Author: Aarón Escoboza Villegas
 */
 
-module modN_counter#(parameter M = 6, parameter N = 47)
+module modN_counter#(parameter M = 3, parameter N = 5)
 (
 	input clk,
 	input reset,
@@ -19,7 +19,7 @@ begin
 			out <= 0;
 			done <= 0; 
 		end
-	else if (en && (out == 47))
+	else if (en && (out == N))
 		begin 
 			out <= 0; 
 			done <= 1;
