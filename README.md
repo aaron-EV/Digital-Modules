@@ -12,4 +12,6 @@ Useful digital modules developed in Verilog. Workspace folder contains the whole
 | modN_counter.v| Parameterizable modN counter which counts to a value different than 2^nBits. |
 | singlePort_ramAR.v| Parameterizable single port RAM with asynchronous read. |
 | singlePort_ramSR.v| Parameterizable single port RAM with synchronous read. 
+| singlePort_ramSR.v| Parameterizable single port RAM with synchronous read. 
 | shift_R_register.v| shift right register. |
+| dualPort_ramSR.v| Parameterizable dual port RAM with synchronous read. 
