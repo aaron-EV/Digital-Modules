@@ -1,4 +1,6 @@
 # do singlePort_ramSR.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module singlePort_ramSR
 # 
@@ -24,6 +26,9 @@
 # Loading work.singlePort_ramSR_vlg_sample_tst
 # Loading work.singlePort_ramSR_vlg_check_tst
 # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
-# Simulation passed !
-# ** Note: $finish    : singlePort_ramSR.vt(160)
+# ERROR! Vector Mismatch for output port dout :: @time = 20000.000 ps
+#      Expected value = 0
+#      Real value = 1
+#           1 mismatched vectors : Simulation failed !
+# ** Note: $finish    : singlePort_ramSR.vt(154)
 #    Time: 1 us  Iteration: 0  Instance: /singlePort_ramSR_vlg_vec_tst/tb_out

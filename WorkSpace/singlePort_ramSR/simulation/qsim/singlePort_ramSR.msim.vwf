@@ -422,11 +422,7 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|addr[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 120.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 630.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -435,7 +431,9 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|addr[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 930.0;
 	}
 }
 
@@ -444,11 +442,11 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|addr[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 120.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 630.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 920.0;
 	}
 }
 
@@ -665,9 +663,9 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|din[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 90.0;
-		LEVEL 1 FOR 90.0;
-		LEVEL 0 FOR 820.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 910.0;
 	}
 }
 
@@ -676,9 +674,8 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|we")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 70.0;
-		LEVEL 0 FOR 830.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 900.0;
 	}
 }
 
@@ -687,11 +684,9 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|dout[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 105.001;
-		LEVEL 1 FOR 90.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 624.999;
+		LEVEL 0 FOR 15.001;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 904.999;
 	}
 }
 
@@ -962,9 +957,8 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|i1|we~combout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 70.0;
-		LEVEL 0 FOR 830.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 900.0;
 	}
 }
 
@@ -1181,11 +1175,9 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|i1|ram_rtl_0|auto_generated|ram_bl
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 105.001;
-		LEVEL 1 FOR 90.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 624.999;
+		LEVEL 0 FOR 15.001;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 904.999;
 	}
 }
 
@@ -1194,9 +1186,9 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|i1|din~combout[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 90.0;
-		LEVEL 1 FOR 90.0;
-		LEVEL 0 FOR 820.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 910.0;
 	}
 }
 
@@ -1250,11 +1242,7 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|i1|addr~combout[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 120.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 630.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -1263,7 +1251,9 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|i1|addr~combout[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 930.0;
 	}
 }
 
@@ -1272,11 +1262,11 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|i1|addr~combout[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 120.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 630.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 920.0;
 	}
 }
 
@@ -1285,11 +1275,9 @@ TRANSITION_LIST("singlePort_ramSR_vlg_vec_tst|i1|ram_rtl_0|auto_generated|ram_bl
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 105.001;
-		LEVEL 1 FOR 90.0;
-		LEVEL 0 FOR 150.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 624.999;
+		LEVEL 0 FOR 15.001;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 904.999;
 	}
 }
 

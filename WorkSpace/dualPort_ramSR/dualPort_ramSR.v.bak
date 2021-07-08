@@ -1,0 +1,46 @@
+
+module dualPort_ramSR(parameter DATA_WITH,parameter ADDR_WIDTH,parameter DEPTH) 
+(
+	input clk, 
+	input we_pa, 
+	input we_pb,
+	input [ADDR_WIDTH-1:0]addr_a, 
+	input [addR_WIDTH-1:0]addr_b,
+	input [DATA_WITH-1:0]data_a,
+	input [DATA_WITH-1:0]data_b,
+	output [DATA_WITH-1:0]q_a,
+	output [DATA_WITH-1:0]q_b,
+);
+
+// RAM 
+
+reg [DATA_WITH-1:0]ram[DEPTH-1:0]; 
+
+// portA 
+
+always @(posedge clk) 
+	begin	
+		if(we_pa)
+			begin 
+				ram[addr_a] = <= data_a;
+			end
+		else 
+			begin 
+				q_a <= ram[addr_a];  
+			end
+	end
+	
+// portB 
+
+always @(posedge clk) 
+	begin	
+		if(we_pb)
+			begin 
+				ram[addr_b] = <= data_b;
+			end
+		else 
+			begin 
+				q_b <= ram[addr_b];  
+			end
+	end	
+endmodule

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aaron\Desktop\git_verilogProjects\WorkSpace\dualPort_ramSR\simulation\qsim
+vdualPort_ramSR
+Z1 Iz^19?hb0HbYSbJJYd`C9_3
+Z2 VGZZj0hP;54]>5R03K8RKR3
+Z3 dC:\Users\aaron\Desktop\git_verilogProjects\WorkSpace\dualPort_ramSR\simulation\qsim
+Z4 w1625694925
+Z5 8dualPort_ramSR.vo
+Z6 FdualPort_ramSR.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|dualPort_ramSR.vo|
+Z9 o-work work -O0
+Z10 ndual@port_ram@s@r
+!i10b 1
+Z11 !s100 ;J^`6IVn9GhXDfBHGRC3M0
+!s85 0
+Z12 !s108 1625694926.825000
+Z13 !s107 dualPort_ramSR.vo|
+!s101 -O0
+vdualPort_ramSR_vlg_check_tst
+!i10b 1
+Z14 !s100 7Kg:kF>bRPgRV?VR^kaCS0
+Z15 IO4@1IgThanU5eIYld_8>30
+Z16 V[lDBgSbm[zaNEK@UD:N1_3
+R3
+Z17 w1625694921
+Z18 8dualPort_ramSR.vt
+Z19 FdualPort_ramSR.vt
+L0 65
+R7
+r1
+!s85 0
+31
+Z20 !s108 1625694926.911000
+Z21 !s107 dualPort_ramSR.vt|
+Z22 !s90 -work|work|dualPort_ramSR.vt|
+!s101 -O0
+R9
+Z23 ndual@port_ram@s@r_vlg_check_tst
+vdualPort_ramSR_vlg_sample_tst
+!i10b 1
+Z24 !s100 f7G3<eN`dCE8?D9nPJPeN3
+Z25 I>>36jNKBhWPcff4BoS2KO2
+Z26 VGT6h]75F_`@D;^Y4kn0oE0
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 ndual@port_ram@s@r_vlg_sample_tst
+vdualPort_ramSR_vlg_vec_tst
+!i10b 1
+Z28 !s100 VZhNE9B;i:dIiP?Z1:d1I3
+Z29 IAXL2cCD5;`@BfGBnV6nOF0
+Z30 VbSIlo`DDNkB@G3kJj3F>I2
+R3
+R17
+R18
+R19
+Z31 L0 285
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 ndual@port_ram@s@r_vlg_vec_tst
