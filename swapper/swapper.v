@@ -1,6 +1,7 @@
 
 module swapper#(parameter width = 8)
 (
+	input								  en,
 	input 				          clk,
 	input					          rst,
 	input 		     [width-1:0]  a,
@@ -17,7 +18,7 @@ begin
 			largest <= 0; 
 			smallest <= 0;
 		end
-	else 
+	else if(en)
 		begin 
 			if(a >= b)
 				begin
@@ -29,6 +30,11 @@ begin
 					largest  <= b; 
 					smallest <= a;			
 				end	
-	end	
+		end
+	else 
+		begin 
+			largest <= largest;
+			smallest <= smallest;
+		end
 end
 endmodule
