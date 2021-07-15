@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aaron\Desktop\git_verilogProjects\WorkSpace\swapper\simulation\qsim
+vswapper
+Z1 !s100 1EW[5e491Pf:I=5;4`G5b1
+Z2 IO>5I6XjnK[:Hgz=_@3VUF2
+Z3 VG2dD:eJ7eeUzMMUKjGbPQ0
+Z4 dC:\Users\aaron\Desktop\git_verilogProjects\WorkSpace\swapper\simulation\qsim
+Z5 w1626322360
+Z6 8swapper.vo
+Z7 Fswapper.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|swapper.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1626322361.504000
+Z12 !s107 swapper.vo|
+!s101 -O0
+vswapper_vlg_check_tst
+!i10b 1
+Z13 !s100 26S:T9DWKR4fgTBfQClzN3
+Z14 I3fKJRX2B0HAOIb8<268`21
+Z15 V^1jZkS^O6iaJ;^kbVlZk83
+R4
+Z16 w1626322355
+Z17 8swapper.vt
+Z18 Fswapper.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1626322361.666000
+Z20 !s107 swapper.vt|
+Z21 !s90 -work|work|swapper.vt|
+!s101 -O0
+R10
+vswapper_vlg_sample_tst
+!i10b 1
+Z22 !s100 ;c[GQX2ZS3M1YTi2Hi[Jd2
+Z23 IZe6WdN6PiKT14n;>5:8jj3
+Z24 VT:9Tg:zYTn`kRi9]B>CUh0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vswapper_vlg_vec_tst
+!i10b 1
+!s100 ^3M^UUE:7W3LWN06glIV]0
+IM>MJXPN7ITPXm]PL6?Dj=0
+Z25 Vm]A=PUMUDX=V^6gJ=^eEP1
+R4
+R16
+R17
+R18
+Z26 L0 435
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

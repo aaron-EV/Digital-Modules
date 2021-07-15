@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sun Jul 11 22:40:30 2021">
+<application name="pa" timeStamp="Mon Jul 12 00:08:42 2021">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="219dc4238e174a689edead8b12bde735" type="ProjectID"/>
 <property name="ProjectIteration" value="2" type="ProjectIteration"/>
@@ -17,11 +17,53 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
+<property name="AddSources" value="1" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
 <property name="ProjectSettingsCmdHandler" value="4" type="JavaHandler"/>
 <property name="RunImplementation" value="1" type="JavaHandler"/>
-<property name="RunSchematic" value="7" type="JavaHandler"/>
+<property name="RunSchematic" value="9" type="JavaHandler"/>
 <property name="ToggleAutoFitSelection" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Add Sources..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, null, -1, null, -1, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, IP Integrator, Generate Block Design], 8, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Elaborated Design, Schematic], 16, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.NetlistSchMenuAndMouse_VIEW, View" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NetlistTreeView_NETLIST_TREE, [halfAdder, Leaf Cells (2" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NetlistTreeView_NETLIST_TREE, [halfAdder, Nets (4" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.NetlistTreeView_NETLIST_TREE, [halfAdder], 0, true" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.NetlistTreeView_NETLIST_TREE, [halfAdder], 0, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_SCHEMATIC, Schematic" value="4" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectTab_RELOAD, Reload" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SaveSchematicDialog_SPECIFY_OUTPUT_PDF_FILE, C:\Users\aaron\Desktop\git_verilogProjects\halfAdder\schematic.pdf" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SchMenuAndMouse_SAVE_AS_PDF_FILE, Save as PDF File..." value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="halfAdder.v, 116, 274" value="1" type="GuiResourceData"/>
+<property name="halfAdder.v, 161, 141" value="1" type="GuiResourceData"/>
+<property name="halfAdder.v, 165, 443" value="1" type="GuiResourceData"/>
+<property name="halfAdder.v, 246, 175" value="1" type="GuiResourceData"/>
+<property name="halfAdder.v, 246, 190" value="1" type="GuiResourceData"/>
+<property name="halfAdder.v, 285, 311" value="1" type="GuiResourceData"/>
+<property name="halfAdder.v, 287, 232" value="1" type="GuiResourceData"/>
+<property name="halfAdder.v, 292, 111" value="1" type="GuiResourceData"/>
+<property name="halfAdder.v, 292, 314" value="1" type="GuiResourceData"/>
+<property name="halfAdder.v, 300, 276" value="1" type="GuiResourceData"/>
+<property name="halfAdder.v, 349, 353" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="45" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="42" type="TclMode"/>
 </item>
 </section>
 </application>
