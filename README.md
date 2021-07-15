@@ -15,3 +15,4 @@ Useful digital modules developed in Verilog. Workspace folder contains the whole
 | singlePort_ramSR.v| Parameterizable single port RAM with synchronous read. 
 | shift_R_register.v| shift right register. |
 | dualPort_ramSR.v| Parameterizable dual port RAM with synchronous read. 
+| swapper.v|Parameterizable sequential circuit to swap a and b inputs if a > b. 
