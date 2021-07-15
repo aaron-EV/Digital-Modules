@@ -1,5 +1,5 @@
 ## **Description**
-Useful digital modules developed in Verilog. Workspace folder contains the whole project for each module in Quartus 2 .All other folders contains only .v files and its respectively RTL view. 
+Useful digital modules developed in Verilog.All folders contain .v files and its respectively RTL view. 
 
 ## **Modules**
 
