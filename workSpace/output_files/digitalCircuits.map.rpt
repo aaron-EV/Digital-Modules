@@ -1,5 +1,5 @@
 Analysis & Synthesis report for digitalCircuits
-Fri Jul 23 21:38:51 2021
+Sat Jul 24 11:38:47 2021
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -14,8 +14,10 @@ Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Elapsed Time Per Partition
- 10. Analysis & Synthesis Messages
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Parameter Settings for User Entity Instance: Top-level Entity: |barrelShifter
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -41,16 +43,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Jul 23 21:38:51 2021      ;
+; Analysis & Synthesis Status        ; Successful - Sat Jul 24 11:38:47 2021      ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; digitalCircuits                            ;
-; Top-level Entity Name              ; decoder2to4                                ;
+; Top-level Entity Name              ; barrelShifter                              ;
 ; Family                             ; Cyclone IV GX                              ;
-; Total logic elements               ; 4                                          ;
-;     Total combinational functions  ; 4                                          ;
+; Total logic elements               ; 46                                         ;
+;     Total combinational functions  ; 46                                         ;
 ;     Dedicated logic registers      ; 0                                          ;
 ; Total registers                    ; 0                                          ;
-; Total pins                         ; 7                                          ;
+; Total pins                         ; 20                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
@@ -67,7 +69,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
-; Top-level entity name                                                      ; decoder2to4        ; digitalCircuits    ;
+; Top-level entity name                                                      ; barrelShifter      ; digitalCircuits    ;
 ; Family name                                                                ; Cyclone IV GX      ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -159,13 +161,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                     ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                       ; Library ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------------------------------+---------+
-; decoder2to4.v                    ; yes             ; User Verilog HDL File  ; C:/Users/aaron/Desktop/git_verilogProjects/workSpace/decoder2to4.v ;         ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                       ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                         ; Library ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------+---------+
+; barrelShifter.v                  ; yes             ; User Verilog HDL File  ; C:/Users/aaron/Desktop/git_verilogProjects/workSpace/barrelShifter.v ;         ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------+
@@ -173,12 +175,12 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------------------+------------------+
 ; Resource                 ; Usage            ;
 +--------------------------+------------------+
-; I/O pins                 ; 7                ;
+; I/O pins                 ; 20               ;
 ; DSP block 9-bit elements ; 0                ;
-; Maximum fan-out node     ; en~input         ;
-; Maximum fan-out          ; 4                ;
-; Total fan-out            ; 23               ;
-; Average fan-out          ; 1.28             ;
+; Maximum fan-out node     ; n[0]~input       ;
+; Maximum fan-out          ; 17               ;
+; Total fan-out            ; 185              ;
+; Average fan-out          ; 2.15             ;
 +--------------------------+------------------+
 
 
@@ -187,7 +189,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
-; |decoder2to4               ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 7    ; 0            ; |decoder2to4        ;              ;
+; |barrelShifter             ; 46 (46)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 20   ; 0            ; |barrelShifter      ;              ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -207,6 +209,29 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |barrelShifter|out         ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |barrelShifter|out         ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |barrelShifter|out         ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |barrelShifter|out         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |barrelShifter ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; width          ; 8     ; Signed Integer                                       ;
+; nWidth         ; 3     ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-------------------------------+
 ; Elapsed Time Per Partition    ;
 +----------------+--------------+
@@ -222,25 +247,27 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Fri Jul 23 21:38:47 2021
+    Info: Processing started: Sat Jul 24 11:38:41 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off digitalCircuits -c digitalCircuits
 Warning (20028): Parallel compilation is not licensed and has been disabled
-Info (12021): Found 1 design units, including 1 entities, in source file test.v
-    Info (12023): Found entity 1: test
 Info (12021): Found 1 design units, including 1 entities, in source file decoder2to4.v
     Info (12023): Found entity 1: decoder2to4
-Info (12127): Elaborating entity "decoder2to4" for the top level hierarchy
+Info (12021): Found 1 design units, including 1 entities, in source file comparator.v
+    Info (12023): Found entity 1: comparator
+Info (12021): Found 1 design units, including 1 entities, in source file barrelshifter.v
+    Info (12023): Found entity 1: barrelShifter
+Info (12127): Elaborating entity "barrelShifter" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 11 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 3 input pins
-    Info (21059): Implemented 4 output pins
-    Info (21061): Implemented 4 logic cells
+Info (21057): Implemented 66 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 12 input pins
+    Info (21059): Implemented 8 output pins
+    Info (21061): Implemented 46 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4651 megabytes
-    Info: Processing ended: Fri Jul 23 21:38:51 2021
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 4652 megabytes
+    Info: Processing ended: Sat Jul 24 11:38:47 2021
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:04
 
 
