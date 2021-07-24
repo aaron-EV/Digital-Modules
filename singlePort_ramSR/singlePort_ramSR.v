@@ -4,6 +4,7 @@
 module singlePort_ramSR #(parameter ADDR_WIDTH = 8, parameter DATA_WIDTH = 1)
 (
 	input clk, 
+	
 	input we,
 	input  [ADDR_WIDTH-1:0]  addr, 
 	input  [DATA_WIDTH-1:0]   din, 

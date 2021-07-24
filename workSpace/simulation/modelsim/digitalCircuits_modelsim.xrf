@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/aaron/Desktop/git_verilogProjects/workSpace/test.v
+source_file = 1, C:/Users/aaron/Desktop/git_verilogProjects/workSpace/decoder2to4.v
+source_file = 1, C:/Users/aaron/Desktop/git_verilogProjects/workSpace/db/digitalCircuits.cbx.xml
+design_name = decoder2to4
+instance = comp, \out[0]~output , out[0]~output, decoder2to4, 1
+instance = comp, \out[1]~output , out[1]~output, decoder2to4, 1
+instance = comp, \out[2]~output , out[2]~output, decoder2to4, 1
+instance = comp, \out[3]~output , out[3]~output, decoder2to4, 1
+instance = comp, \en~input , en~input, decoder2to4, 1
+instance = comp, \in[0]~input , in[0]~input, decoder2to4, 1
+instance = comp, \in[1]~input , in[1]~input, decoder2to4, 1
+instance = comp, \out~0 , out~0, decoder2to4, 1
+instance = comp, \out~1 , out~1, decoder2to4, 1
+instance = comp, \out~2 , out~2, decoder2to4, 1
+instance = comp, \out~3 , out~3, decoder2to4, 1
