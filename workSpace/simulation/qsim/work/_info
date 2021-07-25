@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aaron\Desktop\git_verilogProjects\workSpace\simulation\qsim
+vparity
+Z1 Im=8LUobh_5AHSC:L=^2of1
+Z2 VYi6SZ`R72zE:GKdc^OHGL1
+Z3 dC:\Users\aaron\Desktop\git_verilogProjects\workSpace\simulation\qsim
+Z4 w1627186516
+Z5 8digitalCircuits.vo
+Z6 FdigitalCircuits.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 7VfZb[QZ18mBQE>cI?CMV0
+!s85 0
+Z10 !s108 1627186519.263000
+Z11 !s107 digitalCircuits.vo|
+Z12 !s90 -work|work|digitalCircuits.vo|
+!s101 -O0
+vparity_vlg_check_tst
+!i10b 1
+!s100 8a[POBf]11a>S5kTKlXZB3
+I9AO^LglmSBTJ_^5Z[QfBV0
+VXzk;L?makB0HddU^<V4<l2
+R3
+Z13 w1627186513
+Z14 8digitalCircuits.vt
+Z15 FdigitalCircuits.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1627186519.397000
+Z17 !s107 digitalCircuits.vt|
+Z18 !s90 -work|work|digitalCircuits.vt|
+!s101 -O0
+R8
+vparity_vlg_sample_tst
+!i10b 1
+!s100 a98[INCYoacf4k4VXT1Vd0
+INoTn4FN73]CmnBbUkNB8U1
+VR]LFI@Fg`2kdiVB@0;zcB1
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vparity_vlg_vec_tst
+!i10b 1
+!s100 Ca<E0NL^A4@TE8V]lM`4l1
+I>iEg=P?:eQnedh1TOUj303
+V0c>?0>f^fzPS3VA@K0h@g1
+R3
+R13
+R14
+R15
+L0 152
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
