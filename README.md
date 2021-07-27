@@ -16,7 +16,9 @@ Useful digital modules developed in Verilog.All folders contain .v files and its
 | biShiftRegister.v| Parameterizable bidirectional shift register. |
 | dualPort_ramSR.v| Parameterizable dual port RAM with synchronous read. 
 | swapper.v|Parameterizable sequential circuit to swap a and b inputs if a > b. 
-| barrelShifter.v|Parameterizable barrel shifter. 
+| barrelShifter.v| Parameterizable barrel shifter. 
 | ALU.v| Four bit ALU with logical, arithmetic and reduction operations. 
-| complexMul.v|Parameterizable complex multiplier. Operation:(a + bi)*(c + di). 
-| squareComplex.v|Parameterizable square complex multiplier. Operation:(a + bi)^2.   
+| complexMul.v| Parameterizable complex multiplier. Operation:(a + bi)*(c + di). 
+| squareComplex.v| Parameterizable square complex multiplier. Operation:(a + bi)^2. 
+| secBubbleSort.v| Combinational 4-element sorter based on bubble sort.
+ 
