@@ -20,5 +20,5 @@ Useful digital modules developed in Verilog.All folders contain .v files and its
 | ALU.v| Four bit ALU with logical, arithmetic and reduction operations. 
 | complexMul.v| Parameterizable complex multiplier. Operation:(a + bi)*(c + di). 
 | squareComplex.v| Parameterizable square complex multiplier. Operation:(a + bi)^2. 
-| secBubbleSort.v| Combinational 4-element sorter based on bubble sort.
+| secBubbleSort.v| Secuential 4-element sorter based on bubble sort.
  
