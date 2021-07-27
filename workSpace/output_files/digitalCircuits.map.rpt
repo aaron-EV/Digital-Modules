@@ -1,5 +1,5 @@
 Analysis & Synthesis report for digitalCircuits
-Sat Jul 24 21:13:13 2021
+Sun Jul 25 23:31:17 2021
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -14,7 +14,7 @@ Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Parameter Settings for User Entity Instance: Top-level Entity: |parity
+  9. Parameter Settings for User Entity Instance: Top-level Entity: |ramSinglePort
  10. Elapsed Time Per Partition
  11. Analysis & Synthesis Messages
 
@@ -42,16 +42,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Jul 24 21:13:13 2021      ;
+; Analysis & Synthesis Status        ; Successful - Sun Jul 25 23:31:17 2021      ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; digitalCircuits                            ;
-; Top-level Entity Name              ; parity                                     ;
+; Top-level Entity Name              ; ramSinglePort                              ;
 ; Family                             ; Cyclone IV GX                              ;
-; Total logic elements               ; 3                                          ;
-;     Total combinational functions  ; 3                                          ;
-;     Dedicated logic registers      ; 0                                          ;
-; Total registers                    ; 0                                          ;
-; Total pins                         ; 9                                          ;
+; Total logic elements               ; 112                                        ;
+;     Total combinational functions  ; 48                                         ;
+;     Dedicated logic registers      ; 72                                         ;
+; Total registers                    ; 72                                         ;
+; Total pins                         ; 21                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
@@ -68,7 +68,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
-; Top-level entity name                                                      ; parity             ; digitalCircuits    ;
+; Top-level entity name                                                      ; ramSinglePort      ; digitalCircuits    ;
 ; Family name                                                                ; Cyclone IV GX      ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -160,13 +160,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                  ; Library ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------+---------+
-; parity.v                         ; yes             ; User Verilog HDL File  ; C:/Users/aaron/Desktop/git_verilogProjects/workSpace/parity.v ;         ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                 ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                   ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------+---------+
+; ramSinglePort.v                  ; yes             ; User Verilog HDL File  ; C:/Users/aaron/Desktop/aaronMain/gitRepositories/git_verilogProjects/workSpace/ramSinglePort.v ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------+
@@ -174,12 +174,12 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------------------+------------------+
 ; Resource                 ; Usage            ;
 +--------------------------+------------------+
-; I/O pins                 ; 9                ;
+; I/O pins                 ; 21               ;
 ; DSP block 9-bit elements ; 0                ;
-; Maximum fan-out node     ; WideXor0~0       ;
-; Maximum fan-out          ; 1                ;
-; Total fan-out            ; 20               ;
-; Average fan-out          ; 0.95             ;
+; Maximum fan-out node     ; clk~input        ;
+; Maximum fan-out          ; 72               ;
+; Total fan-out            ; 421              ;
+; Average fan-out          ; 2.60             ;
 +--------------------------+------------------+
 
 
@@ -188,7 +188,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
-; |parity                    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 9    ; 0            ; |parity             ;              ;
+; |ramSinglePort             ; 48 (48)           ; 72 (72)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 21   ; 0            ; |ramSinglePort      ;              ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -198,23 +198,25 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 72    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 64    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |parity ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; width          ; 8     ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |ramSinglePort ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                       ;
+; ADDR_WIDTH     ; 3     ; Signed Integer                                       ;
+; DEPTH          ; 8     ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -233,7 +235,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Sat Jul 24 21:13:08 2021
+    Info: Processing started: Sun Jul 25 23:31:13 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off digitalCircuits -c digitalCircuits
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file decoder2to4.v
@@ -246,18 +248,22 @@ Info (12021): Found 1 design units, including 1 entities, in source file alu.v
     Info (12023): Found entity 1: ALU
 Info (12021): Found 1 design units, including 1 entities, in source file parity.v
     Info (12023): Found entity 1: parity
-Info (12127): Elaborating entity "parity" for the top level hierarchy
+Info (12021): Found 1 design units, including 1 entities, in source file ramsingleport.v
+    Info (12023): Found entity 1: ramSinglePort
+Info (12127): Elaborating entity "ramSinglePort" for the top level hierarchy
+Info (276014): Found 1 instances of uninferred RAM logic
+    Info (276004): RAM logic "ram" is uninferred due to inappropriate RAM size
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 12 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 8 input pins
-    Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 3 logic cells
+Info (21057): Implemented 133 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 13 input pins
+    Info (21059): Implemented 8 output pins
+    Info (21061): Implemented 112 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4651 megabytes
-    Info: Processing ended: Sat Jul 24 21:13:13 2021
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Peak virtual memory: 4647 megabytes
+    Info: Processing ended: Sun Jul 25 23:31:17 2021
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 

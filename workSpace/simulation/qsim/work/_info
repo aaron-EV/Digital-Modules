@@ -15,67 +15,147 @@ Z7 OV;L;10.1d;51
 r1
 31
 Z8 o-work work -O0
-!i10b 1
 Z9 !s100 7VfZb[QZ18mBQE>cI?CMV0
-!s85 0
 Z10 !s108 1627186519.263000
 Z11 !s107 digitalCircuits.vo|
 Z12 !s90 -work|work|digitalCircuits.vo|
+!i10b 1
+!s85 0
 !s101 -O0
 vparity_vlg_check_tst
-!i10b 1
-!s100 8a[POBf]11a>S5kTKlXZB3
-I9AO^LglmSBTJ_^5Z[QfBV0
-VXzk;L?makB0HddU^<V4<l2
+Z13 I9AO^LglmSBTJ_^5Z[QfBV0
+Z14 VXzk;L?makB0HddU^<V4<l2
 R3
-Z13 w1627186513
-Z14 8digitalCircuits.vt
-Z15 FdigitalCircuits.vt
+Z15 w1627186513
+Z16 8digitalCircuits.vt
+Z17 FdigitalCircuits.vt
 L0 57
+R7
+r1
+31
+Z18 !s108 1627186519.397000
+Z19 !s107 digitalCircuits.vt|
+Z20 !s90 -work|work|digitalCircuits.vt|
+R8
+Z21 !s100 8a[POBf]11a>S5kTKlXZB3
+!i10b 1
+!s85 0
+!s101 -O0
+vparity_vlg_sample_tst
+Z22 INoTn4FN73]CmnBbUkNB8U1
+Z23 VR]LFI@Fg`2kdiVB@0;zcB1
+R3
+R15
+R16
+R17
+L0 29
+R7
+r1
+31
+R18
+R19
+R20
+R8
+Z24 !s100 a98[INCYoacf4k4VXT1Vd0
+!i10b 1
+!s85 0
+!s101 -O0
+vparity_vlg_vec_tst
+Z25 I>iEg=P?:eQnedh1TOUj303
+Z26 V0c>?0>f^fzPS3VA@K0h@g1
+R3
+R15
+R16
+R17
+Z27 L0 152
+R7
+r1
+31
+R18
+R19
+R20
+R8
+Z28 !s100 Ca<E0NL^A4@TE8V]lM`4l1
+!i10b 1
+!s85 0
+!s101 -O0
+vramSinglePort
+Z29 IPO8k=eA@gWh5eY@zjKT0X3
+Z30 Vl@lj;RMfhNn9mfDO_>UXQ0
+Z31 dC:\Users\aaron\Desktop\aaronMain\gitRepositories\git_verilogProjects\workSpace\simulation\qsim
+Z32 w1627281193
+R5
+R6
+L0 31
+R7
+r1
+31
+R12
+R8
+Z33 nram@single@port
+!i10b 1
+Z34 !s100 1`6TWeigHmhC__g4>5eDj3
+!s85 0
+Z35 !s108 1627281194.551000
+R11
+!s101 -O0
+vramSinglePort_vlg_check_tst
+!i10b 1
+Z36 !s100 <WnnMR?<K1Rh?e?4_k5e32
+Z37 IOz`@l=GnA7SGA[b^OVa9h2
+Z38 V8[z<JVocj=?n6PhOzNCKV2
+R31
+Z39 w1627281190
+R16
+R17
+L0 63
 R7
 r1
 !s85 0
 31
-Z16 !s108 1627186519.397000
-Z17 !s107 digitalCircuits.vt|
-Z18 !s90 -work|work|digitalCircuits.vt|
+Z40 !s108 1627281194.724000
+Z41 !s107 digitalCircuits.vt|
+R20
 !s101 -O0
 R8
-vparity_vlg_sample_tst
+Z42 nram@single@port_vlg_check_tst
+vramSinglePort_vlg_sample_tst
 !i10b 1
-!s100 a98[INCYoacf4k4VXT1Vd0
-INoTn4FN73]CmnBbUkNB8U1
-VR]LFI@Fg`2kdiVB@0;zcB1
-R3
-R13
-R14
-R15
+Z43 !s100 TNMnG:6fF2Pic<S2VM]?G3
+Z44 I^EnLjO^9RZQ]iY7N7[SM61
+Z45 VgUnM9A<QhXI<Ah<AcKSP32
+R31
+R39
+R16
+R17
 L0 29
 R7
 r1
 !s85 0
 31
-R16
-R17
-R18
+R40
+R41
+R20
 !s101 -O0
 R8
-vparity_vlg_vec_tst
+Z46 nram@single@port_vlg_sample_tst
+vramSinglePort_vlg_vec_tst
 !i10b 1
-!s100 Ca<E0NL^A4@TE8V]lM`4l1
-I>iEg=P?:eQnedh1TOUj303
-V0c>?0>f^fzPS3VA@K0h@g1
-R3
-R13
-R14
-R15
-L0 152
+Z47 !s100 H]_FPb`dUo:zaQcZR9g^80
+Z48 I:jibe0Amond>D00]3XQ_I2
+Z49 V49N446lc3<`6@_XdNjf]e1
+R31
+R39
+R16
+R17
+Z50 L0 283
 R7
 r1
 !s85 0
 31
-R16
-R17
-R18
+R40
+R41
+R20
 !s101 -O0
 R8
+Z51 nram@single@port_vlg_vec_tst
